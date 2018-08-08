@@ -41,6 +41,7 @@
                         <target>${java.version}</target>
                     </configuration>
                 </plugin>
+                     <!--
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>findbugs-maven-plugin</artifactId>
@@ -56,6 +57,7 @@
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>${checkstyle.version}</version>
                 </plugin>
+-->
             </plugins>
         </pluginManagement>
     </build>
